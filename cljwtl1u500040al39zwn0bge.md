@@ -5,7 +5,7 @@ seoDescription: "Master AWS Greengrass IoT: 4-part series on setup, Java REST AP
 datePublished: Mon Jul 10 2023 12:08:39 GMT+0000 (Coordinated Universal Time)
 cuid: cljwtl1u500040al39zwn0bge
 slug: iot-edge-runtime-with-aws-greengrass-introduction
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688989656936/8fe5cd4f-54f5-4564-9fa9-c00b918b2749.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688996284872/0cc621dc-899f-4bda-a0d9-d3e4bc31a0f2.png
 tags: aws, iot, rest-api, tunnel, edgecomputing
 
 ---
