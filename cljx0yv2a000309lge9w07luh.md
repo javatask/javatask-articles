@@ -35,7 +35,7 @@ I highly recommend using AWS Identity Center (formerly known as AWS SSO) to get 
 
 ### Supported hardware and software requirements
 
-It will be better to use Linux based machine with docker support and git. Other components will be installed during the Docker build procedure
+It will be better to use Linux based machine with docker, git and curl. Other components will be installed during the Docker build procedure
 
 I'll show you how to use Docker and Provisioned Mode (simple deployment mode) to deploy your Greengrass Gateway.
 
