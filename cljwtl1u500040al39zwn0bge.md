@@ -10,7 +10,15 @@ tags: aws, iot, rest-api, tunnel, edgecomputing
 
 ---
 
-## Parts
+# Introduction
+
+In this series, I'll show how to build a solid foundation to deliver your custom business logic on-premise with AWS Greengrass open-source edge runtime.
+
+I'll not deep dive into Lambda at Edge (serverless business logic) or MQTT (message broker) capabilities offered by AWS IoT Core and AWS Greengrass. I'll focus more on **plain** **old java based Rest API server** and **synchronous calls**.
+
+Nevertheless, it great if you can learn the event-driven architecture and rearchitect your solutions with asynchronous communication patterns. Great place to start to learn event -driver architecture is [Serverless Land - Event Driven Architecture](https://serverlessland.com/event-driven-architecture)
+
+# Parts
 
 This series consists of four parts, each part is independent of another.
 
@@ -22,17 +30,9 @@ This series consists of four parts, each part is independent of another.
 
 **Secure tunneling**. This part shows how to ssh into your AWS Greengrass device, together with the ability to send requests from the cloud to your REST API server deployed at Edge without a VPN connection.
 
-## Introduction
+# Use case
 
-In this series, I'll show how to build a solid foundation to deliver your custom business logic on-premise with AWS Greengrass open-source edge runtime.
-
-I'll not deep dive into Lambda at Edge (serverless business logic) or MQTT (message broker) capabilities offered by AWS IoT Core and AWS Greengrass. I'll focus more on **plain** **old java based Rest API server** and **synchronous calls**.
-
-Nevertheless, it great if you can learn the event-driven architecture and rearchitect your solutions with asynchronous communication patterns. Great place to start to learn event -driver architecture is [Serverless Land - Event Driven Architecture](https://serverlessland.com/event-driven-architecture)
-
-## Use case
-
-### High-level description
+## High-level description
 
 I'll focus on the use case calling your custom REST API server deployed at the edge from your local computer, it may be your cloud infrastructure, without using VPN.
 
@@ -46,7 +46,7 @@ The REST API Server, hosted on AWS Greengrass, processes the request and returns
 
 Please note that this diagram represents the high-level workflow and may require further details and configuration depending on the specific tools and technologies you are using for the secure tunnel and AWS Greengrass deployment.
 
-### Real-world scenario
+## Real-world scenario
 
 This use case is the genericization for the deployment and management of smart home automation systems.
 
@@ -58,7 +58,7 @@ By using a custom REST API server in this smart home automation system, users ca
 
 AWS Greengrass can be used as an edge runtime to run REST API servers and orchestrate IoT devices on-premises.
 
-## Overview of AWS Greengrass
+# Overview of AWS Greengrass
 
 AWS Greengrass is a service that extends AWS to edge devices, enabling local processing, messaging, and data caching. It allows IoT devices to act locally on the data they generate while still using the cloud for management, analytics, and storage. Greengrass provides a runtime environment for Lambda functions and connectors, allowing developers to create custom applications and integrations for edge devices.
 
@@ -68,7 +68,7 @@ Figure 2. shows the role of AWS Greengrass, which acts as a gateway between devi
 
 Figure 2. Greengrass Role as Gateway in IoT Ecosystem
 
-### Benefits of using AWS Greengrass
+## Benefits of using AWS Greengrass
 
 Some benefits of on-premises deployment of Greengrass devices include:
 
@@ -85,10 +85,10 @@ Some benefits of on-premises deployment of Greengrass devices include:
 
 But Greengrass is part of the AWS ecosystem which takes the heavy lifting of Gateway core software and tooling to deliver you custom business logic for your use case rather than an easy task :)
 
-## Summary
+# Summary
 
 In this part, I described IoT-related use cases for using edge runtime to run the Rest API server for the configuration of smart house components.
 
 I showed that AWS Greengrass offers an open-source edge runtime capable of deploying, running and upgrading our custom applications at the edge.
 
-Let's jump to the next part to configure your first or not :) Greengrass Thing!
+[Let's jump to the next part to configure your first or not :) Greengrass Thing!](https://blog.javatask.dev/iot-edge-runtime-with-aws-greengrass-setup)
