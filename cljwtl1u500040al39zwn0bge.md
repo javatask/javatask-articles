@@ -20,7 +20,7 @@ Nevertheless, it great if you can learn the event-driven architecture and rearch
 
 # Parts
 
-This series consists of four parts, each part is independent of another.
+[This series consists of four parts, each part is independent of another](https://blog.javatask.dev/series/iot).
 
 [**Introduction**. In this part, we are talking about the use case and the AWS Greengrass itself](https://blog.javatask.dev/iot-edge-runtime-with-aws-greengrass-introduction)
 
