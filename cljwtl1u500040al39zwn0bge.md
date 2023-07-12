@@ -14,13 +14,13 @@ tags: aws, iot, rest-api, tunnel, edgecomputing
 
 This series consists of four parts, each part is independent of another.
 
-**Introduction**. In this part, we are talking about the use case and the AWS Greengrass itself
+[**Introduction**. In this part, we are talking about the use case and the AWS Greengrass itself](https://blog.javatask.dev/iot-edge-runtime-with-aws-greengrass-introduction)
 
-**Setup**. Here I'll show how to quickly launch Greengrass as a docker image on our computer
+[**Setup**. Here I'll show how to quickly launch Greengrass as a docker image on our computer](https://blog.javatask.dev/iot-edge-runtime-with-aws-greengrass-setup)
 
-**Custom Component**. This part shows how to deploy a sample Java REST API server to an edge device running AWS Greengrass
+[**Custom Component**. This part shows how to deploy a sample Java REST API server to an edge device running AWS Greengrass](https://blog.javatask.dev/iot-edge-runtime-with-aws-greengrass-build-and-deploy-custom-component)
 
-**Secure tunneling**. This part shows how to ssh into your AWS Greengrass device, together with an approach to how to send requests from the cloud to your REST API server deployed at Edge without a VPN connection.
+**Secure tunneling**. This part shows how to ssh into your AWS Greengrass device, together with the ability to send requests from the cloud to your REST API server deployed at Edge without a VPN connection.
 
 ## Introduction
 
