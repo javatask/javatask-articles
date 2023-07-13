@@ -26,7 +26,7 @@ All steps are based on an official tutorial [Run AWS IoT Greengrass Core softwar
 
 [**Custom Component**. This part shows how to deploy a sample Java REST API server to an edge device running AWS Greengrass](https://blog.javatask.dev/iot-edge-runtime-with-aws-greengrass-build-and-deploy-custom-component)
 
-**Secure tunneling**. This part shows how to ssh into your AWS Greengrass device, together with the ability to send requests from the cloud to your REST API server deployed at Edge without a VPN connection.
+[**Secure tunnelling**. This part shows how to build a tunnel from your AWS Greengrass device to the Cloud, together with the ability to send requests from the cloud to your REST API server deployed at Edge without a VPN connection.](https://blog.javatask.dev/iot-edge-runtime-with-aws-greengrass-tunneling)
 
 # Prerequisites
 
