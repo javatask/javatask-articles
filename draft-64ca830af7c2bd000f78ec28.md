@@ -17,16 +17,16 @@ Let's recap the story of the previous parts and the changes that are required to
 
 * Part 1. Was an introduction to what we are doing.
     
-* Part 2. Frontend. Here I did the deployment of AWS Cloudfront CDN Distribution, and I will update its CFN template to map `/api` queries to the backend.
+* Part 2. Frontend. Here I did the deployment of AWS Cloudfront CDN Distribution, and in this part, I will update its CFN template to map Frontend `/api` queries to the Backend.
     
-* Part 3. Backend. I configured up VM (EC2 Instance) to run REST API Server and API Gateway to proxy requests to VM. Here I will also do the changes to protect API Gateway with our OpenID Server JWT. Another important change that I did to the backend is the endpoint change, from `/greeting` to `/api/greeting`
+* Part 3. Backend. I configured VM (EC2 Instance) to run REST API Server and API Gateway to proxy requests to VM. In this part, I will also do the changes to protect API Gateway with our OpenID Server JSON Wen Token (JWT). Another important change that I did to the backend is the endpoint change, from `/greeting` to `/api/greeting`
     
-* Part 4. Identity Provider. Here I deployed AWS Cognito as OpenID Server to do the user Authentication. No changes here.
+* Part 4. Identity Provider. I deployed AWS Cognito as OpenID Server to do the user Authentication. No changes will be made in this part to the initial CFN template.
     
 
 # **Connect Frontend to the Backend**
 
-I'll list here only the change required to the `frontend.yml` file. The whole CFN template you can check in the tutorial folder \[TODO Add URL\].
+I'll list here only the change required to the `frontend.yml` file. The whole CFN template you can find in the tutorial folder \[TODO Add URL\].
 
 ```yaml
 ...
@@ -59,7 +59,7 @@ AssetsDistribution:
       ....
 ```
 
-These changes are focused on adding new Origin and Mapping `/api` to the new Origin.
+These changes are focused on adding a new Origin and Mapping `/api` to the new Origin.
 
 Let's update the existing Frontend stack with the new CFN template:
 
@@ -146,11 +146,11 @@ aws cloudformation deploy \
 
 # Testing final product
 
-Use your CloudFront URL to reach the web part of your app:
+Use your CloudFront URL to reach the website part of your app:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691410568141/e2aa5cf6-fa60-4f03-b00d-0b3552482f08.png align="center")
 
-Open the developer console and click `Fetch data` , you should get the error:
+Open the developer console and click `Fetch data`, you should get the error:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691410672034/2d9beba5-d1c3-48ba-8bef-0db954a69b5e.png align="center")
 
@@ -168,6 +168,6 @@ Well done! We almost have all bits and pieces to get production-ready CFN templa
 
 # Summary
 
-In this article, we demonstrate how to connect Authentication, Backend, and Frontend securely using a CloudFormation template for a Single Page Application (SPA). We cover updating the Frontend and Backend templates, integrating AWS Cognito with API Gateway for authorization, and testing the final product. By the end of this tutorial, you'll have a secure and nearly production-ready SPA setup.
+In this article, I demonstrate how to connect Authentication, Backend, and Frontend securely using a CloudFormation template for a Single Page Application (SPA). We cover updating the Frontend and Backend templates, integrating AWS Cognito with API Gateway for authorization, and testing the final product. By the end of this tutorial, you'll have a secure and nearly production-ready SPA setup.
 
 In the next part, I'll show your final script that can do a "one-click" deployment of our application.
