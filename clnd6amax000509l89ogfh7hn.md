@@ -128,6 +128,31 @@ result = map_reduce_chain.run(split_docs)
 print(result)
 ```
 
+# Result
+
+I ran this document for [AWS Adoption Framework PDF](https://aws.amazon.com/cloud-adoption-framework/) and got this result:
+
+> Here is a consolidated summary of the main themes across the documents:
+> 
+> The key themes focus on leveraging the cloud and modern technologies to digitally transform organizations. Specific strategies include:
+> 
+> * Adopting the cloud in a structured way using frameworks like the AWS Cloud Adoption Framework (CAF)
+>     
+> * Modernizing applications through cloud-native architectures, containers, serverless, and microservices
+>     
+> * Building data lakes and pipelines to gain business insights through analytics
+>     
+> * Automating processes and optimizing costs for efficiency
+>     
+> * Ensuring governance, security, compliance, and IT service delivery
+>     
+> * Transforming teams, culture, and organizational structures to support new ways of working
+>     
+> * Following best practices for cloud operations, architecture, and security
+>     
+> 
+> In summary, the documents provide a comprehensive playbook for digitally transforming an organization through cloud adoption, application modernization, data analytics, automation, and organizational change management. Key frameworks like the CAF provide structured guidance on this transformation journey.
+
 # Conclusion
 
 In this blog post, we explore how to use Amazon's AWS Bedrock Generative AI Service for code summarization with Anthropic's Claude 2 model. We walk through a practical example using Python and the boto3 library to summarize a set of documents. We discuss the benefits of using AWS Bedrock and provide a step-by-step guide on setting up the environment, defining the LLM chains, creating the MapReduce chain, and loading and summarizing documents.
