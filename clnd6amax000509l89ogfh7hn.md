@@ -15,7 +15,7 @@ In this blog post, we will discuss how to use Amazon's AWS Bedrock Generative AI
 
 Link to the repository: [generative-ai/cloud-bedrock3.ipynb at main · javatask/generative-ai (](https://github.com/javatask/generative-ai/blob/main/cloud-bedrock3.ipynb)[github.com](http://github.com)[)](https://github.com/javatask/generative-ai/blob/main/cloud-bedrock3.ipynb)
 
-# Incentive or Why not GPT-4?
+## Incentive or Why not GPT-4?
 
 Using AWS Bedrock offers several advantages, including:
 
@@ -30,11 +30,13 @@ Using AWS Bedrock offers several advantages, including:
 
 I hope that more and more specialized models like Text-to-SQL will appear in the gallery.
 
-# Theory
+## Theory
 
 Please reference to Langchain's excellent documentation on using AI for summarization and much more [Summarization | 🦜️🔗 Langchain](https://python.langchain.com/docs/use_cases/summarization)
 
-# Setting Up the Environment
+# The Code
+
+## Setting Up the Environment
 
 To set up the AWS session, I used AWS CLI v2 and SSO to log in and obtain the necessary credentials for accessing AWS services.
 
@@ -43,8 +45,6 @@ Before diving into the code, let's ensure we have the necessary packages install
 ```bash
 pip install boto3 langchain pypdf
 ```
-
-# The Code
 
 ## Bedrock-runtime
 
