@@ -238,7 +238,7 @@ This CloudFormation template facilitates the distribution of static content usin
         
     * `AccessLogBucketPolicy`: This bucket policy for the log bucket denies all S3 actions if the request is not made over a secure (SSL/TLS) connection.
         
-    * `AssetsDistribution`: This CloudFront distribution is created for content delivery. It uses the S3 bucket as its origin and implements the cache policy specified by the `CachePolicy` parameter. The default root object is set to `index.html`, and the viewer protocol policy redirects all HTTP traffic to HTTPS. It also uses the HTTP/2 protocol and employs the default CloudFront certificate.
+    * `AssetsDistribution`: This CloudFront distribution is created for content delivery. It uses the S3 bucket as its origin and implements the cache policy. The default root object is set to `index.html`, and the viewer protocol policy redirects all HTTP traffic to HTTPS. It also uses the HTTP/2 protocol and employs the default CloudFront certificate.
         
     * `CloudFrontOriginAccessControl`: This resource configures CloudFront origin access control for S3, ensuring that signing behavior is always enforced with sigv4 signing protocol.
         
