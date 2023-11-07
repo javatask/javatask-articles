@@ -5,7 +5,7 @@ seoDescription: "Establish secure EC2-Rest API communication in AWS Greengrass u
 datePublished: Thu Jul 13 2023 10:44:00 GMT+0000 (Coordinated Universal Time)
 cuid: clk10vrbr000b0al7gkw9d4qw
 slug: iot-edge-runtime-with-aws-greengrass-tunneling
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689070207617/381b58d9-25c5-4365-8ec2-dc3124ed8bee.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1699350940139/d3f42db5-aba7-49a4-b25f-6417388f6b7e.png
 tags: aws, security, tunnel, aws-iot-core
 
 ---
