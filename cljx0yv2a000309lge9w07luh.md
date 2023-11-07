@@ -5,7 +5,7 @@ seoDescription: "Optimize IoT Edge Runtime with AWS Greengrass: configure, deplo
 datePublished: Mon Jul 10 2023 15:35:20 GMT+0000 (Coordinated Universal Time)
 cuid: cljx0yv2a000309lge9w07luh
 slug: iot-edge-runtime-with-aws-greengrass-setup
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688992349190/b3744811-3074-4284-8961-1cc8a052c83e.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1699350846422/c6174313-df26-49c3-b4e3-ff9df74d8c60.png
 tags: docker, aws, iot, containers
 
 ---
