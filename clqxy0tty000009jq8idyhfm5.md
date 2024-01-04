@@ -12,17 +12,17 @@ tags: ai, opensource, beginner, best-practices, llm, generative-ai
 
 ## Introduction
 
-This article is the first in the series about running a generative AI model locally on consumer-grade hardware to give you a safe place to experiment and understand your use cases. I will try to answer the question of how to safely start experimenting with your real data.
+This article is the first in the series about running a generative AI model locally on consumer-grade hardware to give you a safe place to experiment and understand your use cases. I will try to answer the question of how to start experimenting with your real data safely.
 
 Gartner states[, "In theory, at least, this (Generative AI) will increase worker productivity"](https://www.gartner.com/en/topics/generative-ai). Another Gartner recommendation is to "Start Inside ... with ... Off-the-shelf products". But it's a theory.
 
-In this series, I'll offer practical steps for implementing Gartner's recommendations for regulated (internally and externally) environments. The series promotes the usage of open-source large language models (LLMs) that are the heart of Generative AI (GenAI).
+In this series, I'll offer practical steps for implementing Gartner's recommendations for regulated (internally and externally) environments. The series promotes the usage of open-source large language models (LLMs) that are the heart of Generative AI (GenAI) systems.
 
 > **Note**. *If you don't have any restriction to process your real world data on major Public Cloud providers, like* [*AWS Bedrock*](https://aws.amazon.com/bedrock/)*,* [*Azure AI*](https://azure.microsoft.com/en-us/solutions/ai) *or* [*Google Vertex AI*](https://cloud.google.com/vertex-ai)*. Go for the Public Cloud GenAI offerings!!!*
 
 ## Key Definitions
 
-**Generative AI:** This is a subfield of artificial intelligence that uses models and algorithms to generate content. It can create anything from written text to images or music, by learning patterns from existing data and producing new content that mimics it.
+**Generative AI:** This subfield of artificial intelligence uses models and algorithms to generate content. It can create anything from written text to images or music, by learning patterns from existing data and producing new content that mimics it.
 
 **Large Language Models (LLMs):** These are AI models trained on a vast amount of text data. They can generate human-like text by predicting the probability of a word given the previous words used in the text. Examples include OpenAI's [GPT-3](https://openai.com/blog/gpt-3-apps) and Google's [Gemini](https://deepmind.google/technologies/gemini/).
 
@@ -40,7 +40,7 @@ In this series, I'll offer practical steps for implementing Gartner's recommenda
 
 This article has a steam engine on its cover because steam and latte electric engines changed the world. The same is happening with AI, specifically with AI Agents.
 
-According to [LangChain](https://python.langchain.com/docs/modules/agents/concepts): "The core idea of (AI) agents is to use a language model to choose a sequence of actions. In chains, a sequence of actions is hardcoded (in code). In agents, a language model is used as a reasoning engine to determine which actions to take and which order."
+According to [LangChain](https://python.langchain.com/docs/modules/agents/concepts): "The core idea of (AI) agents is to use a language model to choose a sequence of actions. In chains, a sequence of actions is hardcoded (in code). In agents, a language model is used as a reasoning engine to determine which actions to take and in which order."
 
 So GenAI becomes the "brain", an orchestrator of tools you may use to achieve a given goal or react to the situation. This agent can work 24/7, process enormous amounts of data and be "objective". One type of such agent [Gartner call "**Machine Customers**".](https://www.gartner.com/en/articles/machine-customers-will-decide-who-gets-their-trillion-dollar-business-is-it-you)
 
@@ -54,13 +54,13 @@ This series will have two big blocks:
     
     * With CPU only
         
-    * With CPU and Nvidia GPU, you need [CUDA](https://developer.nvidia.com/cuda-toolkit)
+    * With CPU and Nvidia GPU, you need GPUs that has [CUDA](https://developer.nvidia.com/cuda-toolkit) support
         
 2. *Configuring* apps that use "brain" to deliver value:
     
     * [ChatGPT](https://chat.openai.com/) like [chatbot](https://github.com/ollama-webui/ollama-webui)
         
-    * [GitHub Copilot](https://github.com/features/copilot), like [VS Code AI Assistant](https://continue.dev/)
+    * [GitHub Copilot](https://github.com/features/copilot) like [VS Code AI Assistant](https://continue.dev/)
         
     * [AWS Knowledge Bases](https://aws.amazon.com/blogs/aws/knowledge-bases-now-delivers-fully-managed-rag-experience-in-amazon-bedrock/) like super-powered search on private docs
         
@@ -71,9 +71,9 @@ This series will have two big blocks:
 
 ## Manage your expectations
 
-Technology is here, but hardware is still evolving. Following my tutorials on setting up GenAI locally, you soon feel that some models are "dummer" than ChatGPT 4 (state-of-the-art, closed model). They are slower because you may not have the latest and greatest CUDA-enabled GPU.
+Technology is here, but hardware is still evolving. Following my tutorials on setting up GenAI locally, you soon feel that some models are "dummer" than ChatGPT 4 (state-of-the-art, closed model). They are slower, because you may not have the latest and greatest CUDA-enabled GPU.
 
-BUT, local LLMs technology is good enough for you to start experimenting with GenAI to get value out of it. Remember GenAI is a company-wide initiative, not an IT initiative!
+BUT, local LLMs technology is good enough for you to start experimenting with GenAI. Remember GenAI is a company-wide initiative, not only an IT initiative!
 
 ## Conclusion
 
