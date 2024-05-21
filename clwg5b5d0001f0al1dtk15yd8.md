@@ -14,7 +14,7 @@ tags: aws, architecture, iot, guide, iiot, opcua, sitewise
 
 Welcome to this new blog series, where we explore the capabilities of A[WS IoT SiteWise](https://aws.amazon.com/de/iot-sitewise/) and unveil the "magic" it offers for building end-to-end (E2E) Industrial Internet of Thing (IIoT) solutions focused on monitoring the physical health of network devices. While AWS IoT Core is also a critical component of IoT strategy, this series will concentrate exclusively on SiteWise, leaving IoT Core to be covered in depth in a future series.
 
-In this initial installment, we'll outline our project's broad objectives, providing a roadmap of what we aim to achieve and the technology that will help us achieve it.
+In this initial instalment, we'll outline our project's broad objectives, providing a roadmap of what we aim to achieve and the technology that will help us achieve it.
 
 The genesis of this series stems from a practical need within my fictional role as a network administrator. Tasked with developing a system to monitor crucial aspects of our operational technology (OT) network devices—such as power supply status, temperature levels, and port functionality—I discovered that these devices are equipped with [OPC UA](https://en.wikipedia.org/wiki/OPC_Unified_Architecture) protocol capabilities. OPC UA will be instrumental in enabling us to track and manage the health of our network equipment effectively.
 
@@ -28,7 +28,7 @@ The journey to fully integrate the network device into our network management st
 
 > Note. Diagrams are avaliable as a code in github repo for this series - [aws-sitewise-iiot-e2e/diagrams/big\_](https://github.com/javatask/aws-sitewise-iiot-e2e/blob/main/diagrams/big_picture.py)[picture.py](http://picture.py)[at main · javatask/aws-sitewise-iiot-e2e (](https://github.com/javatask/aws-sitewise-iiot-e2e/blob/main/diagrams/big_picture.py)[github.com](http://github.com)[)](https://github.com/javatask/aws-sitewise-iiot-e2e/blob/main/diagrams/big_picture.py)
 
-#### [**On-Premise Operations**](https://github.com/javatask/aws-sitewise-iiot-e2e/blob/main/diagrams/big_picture.py)
+#### **On-Premise Operations**
 
 [Our system begins in the operational technology (OT) environment, where ph](https://github.com/javatask/aws-sitewise-iiot-e2e/blob/main/diagrams/big_picture.py)ysical devices grouped under "OT Network 1" are connected and managed. These devices, crucial to our daily operations, are first connected through a Hirschmann Industrial Operating System (HIOS 1) switch, which acts as the data source.
 
@@ -58,19 +58,19 @@ Through AWS SiteWise, we manage and automate data flows from the ground up, ensu
 
 AWS IoT SiteWise is a managed service from Amazon Web Services designed to simplify collecting, organizing, and analyzing industrial equipment data. This service is tailored to help companies capture data consistently across devices, understand their operational performance, and identify efficiencies within industrial operations.
 
-At its core, SiteWise enables users to define and model their industrial operations as hierarchical assets, making organising and managing data from complex environments easier. This modeling capability allows for creating virtual representations of physical operations, including devices, machinery, and processes, enabling structured data ingestion and storage.
+SiteWise enables users to define and model their industrial operations as hierarchical assets at its core, making organising and managing data from complex environments easier. This modelling capability creates virtual representations of physical operations, including devices, machinery, and processes, enabling structured data ingestion and storage.
 
 SiteWise also automates the process of data collection and ingestion from various sources like OPC-UA (Open Platform Communications Unified Architecture) and other industrial protocols, removing the need for custom-built data collection solutions. Once data is in SiteWise, the service provides built-in capabilities for monitoring equipment across facilities, quickly identifying issues with real-time alerts, and executing deeper analysis using AWS's powerful analytics tools.
 
-SiteWise includes an integrated dashboard feature known as SiteWise Monitor for visualisation and operational insight. This tool allows industrial engineers and operators to create customizable, interactive dashboards to view and manage operational data in real-time. These dashboards can help identify bottlenecks, optimize processes, and improve overall operational health without the need for deep technical expertise.
+SiteWise includes an integrated dashboard feature called SiteWise Monitor for visualisation and operational insight. This tool allows industrial engineers and operators to create customizable, interactive dashboards to view and manage operational data in real-time. Without deep technical expertise, these dashboards can help identify bottlenecks, optimize processes, and improve overall operational health.
 
-AWS IoT SiteWise offers a comprehensive, scalable, and secure platform for industrial IoT applications (IIoT). It aids organizations in their journey toward digital transformation by leveraging detailed insights from their equipment data.
+AWS IoT SiteWise offers a comprehensive, scalable, and secure industrial IoT applications (IIoT) platform. It aids organizations in their journey toward digital transformation by leveraging detailed insights from their equipment data.
 
 ## **Series Logical Blocks: Mapping Our Journey**
 
 This series will break down our journey into several key stages, each designed to systematically build and enhance our network monitoring system using AWS IoT SiteWise. Here's how we'll proceed:
 
-1. **Configuring Network Devices for OPC UA:** Network devices need to be set up initially to enable OPC UA and configure the necessary credentials. While I won't cover this process in detail, I recommend using the [node-opcua/opcua-commander](https://github.com/node-opcua/opcua-commander), a client that simplifies testing OPC UA connectivity.
+1. **Configuring Network Devices for OPC UA:** Network devices must be set up initially to enable OPC UA and configure the necessary credentials. While I won't cover this process in detail, I recommend using the [node-opcua/opcua-commander](https://github.com/node-opcua/opcua-commander), a client that simplifies testing OPC UA connectivity.
     
 2. **\[Part 2\] Configuring Edge Compute/Gateway:** Setting up our edge computing infrastructure or gateway is crucial for piping data from OPC UA Servers to the cloud.
     
@@ -87,7 +87,7 @@ This series aims to guide you through all the necessary steps, from groundwork t
 
 As we conclude the first part of our journey into leveraging AWS IoT SiteWise for monitoring network devices, we have outlined the roadmap and set the stage for a transformative monitoring solution. By breaking down the journey into manageable steps, we have prepared the groundwork for a robust end-to-end monitoring system that will enhance operational efficiency and ensure the health of network devices.
 
-In the upcoming parts of this series, we will dive deeper into each of the steps, starting with setting up edge computing capabilities and then creating and configuring SiteWise Asset Models. Each part will build upon the last, gradually piecing together a comprehensive solution that not only effectively captures and analyzes data but also provides actionable insights through a well-designed dashboard.
+In the upcoming parts of this series, we will explore each step in more detail, starting with setting up edge computing capabilities and then creating and configuring SiteWise Asset Models. Each part will build upon the last, gradually assembling a comprehensive solution that effectively captures and analyzes data and provides actionable insights through a well-designed dashboard.
 
 Stay tuned for the next instalment, where we will explore the configuration of Edge Compute/Gateway, a critical component in reducing latency and enabling real-time data processing at the network's edge. Your engagement and feedback are valuable as we navigate this IIoT journey, ensuring each step adds tangible value to your network management strategy.
 
