@@ -24,7 +24,7 @@ Join me as we delve into AWS IoT SiteWise, leveraging its powerful features to c
 
 The journey to fully integrate the network device into our network management strategy involves several key components, each serving a distinct purpose in a larger ecosystem. This approach enhances the monitoring and management of network devices and ensures data integrity and security from the edge to the cloud (Figure 1).
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1716278558286/402c3900-0703-43e8-a51b-04001232d0f6.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1716292393715/f1b7ea5d-54be-4a49-a7d4-39f5ca6ed6c1.png align="center")
 
 > Note. Diagrams are avaliable as a code in github repo for this series - [aws-sitewise-iiot-e2e/diagrams/big\_](https://github.com/javatask/aws-sitewise-iiot-e2e/blob/main/diagrams/big_picture.py)[picture.py](http://picture.py)[at main · javatask/aws-sitewise-iiot-e2e (](https://github.com/javatask/aws-sitewise-iiot-e2e/blob/main/diagrams/big_picture.py)[github.com](http://github.com)[)](https://github.com/javatask/aws-sitewise-iiot-e2e/blob/main/diagrams/big_picture.py)
 
