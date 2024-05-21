@@ -26,7 +26,7 @@ The journey to fully integrate the network device into our network management st
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1716278558286/402c3900-0703-43e8-a51b-04001232d0f6.png align="center")
 
-> Note. Diagrams are avaliable as a code in github repo for this series - [aws-sitewise-iiot-e2e/diagrams/big\_](https://github.com/javatask/aws-sitewise-iiot-e2e/blob/main/diagrams/big_picture.py)[picture.py](http://picture.py) [at main · javatask/aws-sitewise-iiot-e2e (](https://github.com/javatask/aws-sitewise-iiot-e2e/blob/main/diagrams/big_picture.py)[github.com](http://github.com)[)](https://github.com/javatask/aws-sitewise-iiot-e2e/blob/main/diagrams/big_picture.py)
+> Note. Diagrams are avaliable as a code in github repo for this series - [aws-sitewise-iiot-e2e/diagrams/big\_](https://github.com/javatask/aws-sitewise-iiot-e2e/blob/main/diagrams/big_picture.py)[picture.py](http://picture.py)[at main · javatask/aws-sitewise-iiot-e2e (](https://github.com/javatask/aws-sitewise-iiot-e2e/blob/main/diagrams/big_picture.py)[github.com](http://github.com)[)](https://github.com/javatask/aws-sitewise-iiot-e2e/blob/main/diagrams/big_picture.py)
 
 #### [**On-Premise Operations**](https://github.com/javatask/aws-sitewise-iiot-e2e/blob/main/diagrams/big_picture.py)
 
@@ -54,7 +54,7 @@ The final component in our IIoT architecture is the "Dashboard," which is access
 
 Through AWS SiteWise, we manage and automate data flows from the ground up, ensuring every layer of our network is optimized for performance, reliability, and security. This strategic integration empowers our network administrators with the tools they need to excel in today's fast-paced digital environment.
 
-### **What is AWS IoT SiteWise?**
+## **What is AWS IoT SiteWise?**
 
 AWS IoT SiteWise is a managed service from Amazon Web Services designed to simplify collecting, organizing, and analyzing industrial equipment data. This service is tailored to help companies capture data consistently across devices, understand their operational performance, and identify efficiencies within industrial operations.
 
