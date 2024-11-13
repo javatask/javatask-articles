@@ -88,11 +88,11 @@ Daughter: "As the actor in Le Mans '66 said, not everything money can buy. Maybe
 
 Father: "Oh, I get it. It is not possible at my scale."
 
-Daughter: "Yes, but for some industries with specific terminology and tons of documentation not available to LLM training programs, it's an ideal way to add persistent knowledge to LLMs."
+Daughter: "Yes, but for some industries with specific terminology and tons of documentation not available to LLM training dataset, it's an ideal way to add persistent knowledge to LLMs."
 
 Father: "OK, so you will tell me that AI Agents are also not for me?"
 
-Daughter: "Mhhh... it's not so simple an answer. AI Agents are for everyone, and it's a good part of the question."
+Daughter: "Mhhh... it's not so simple. AI Agents are for everyone, and it's a good part of the answer."
 
 ## Giving Some Freedom to Your Intern or Agentic AI
 
