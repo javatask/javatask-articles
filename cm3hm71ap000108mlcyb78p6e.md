@@ -20,9 +20,13 @@ You may wonder why invest time in yet another hyped technology. In this article,
 
 > Note: While this article may appear lengthy, most of the content consists of detailed appendices and a sample AI-generated report for reference.
 
+# The Story
+
+After a sleepless night, our CEO (let's call him Ken) received a last-minute invitation to a hospitality conference. This sparked an idea: he needed better insights into his company's financial relationship with hotels. Given the time constraint, Ken asked his IT director and accountant to stay late and prepare an analysis of hotel billings and bookings for the first half of the year. Recognizing the opportunity, Ken shared his vision for AI Agents with his colleagues, mainly because they would spend several days preparing this ad-hoc report.
+
 # The Result - AI Agent Generated Report
 
-Generate report from a CEO request to AI Agent:
+Generate report from a CEO request to AI Agent: “How did we do with the hospitality business in the first half of the year? Please send the report to email.”
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1731605264271/877af470-4297-4fcc-a3c7-87dc474c2290.png align="center")
 
@@ -75,10 +79,6 @@ The hospitality business showed strong performance in the first half of 2024, wi
 ## \[End\]Conclusion
 
 The hospitality business demonstrated a robust performance in the first half of 2024, with consistent bookings and billings. However, the June decline and the gap between bookings and billings present opportunities for improvement. Addressing these areas could lead to even stronger performance in the second half of the year.
-
-# The Story
-
-After a sleepless night, our CEO (let's call him Ken) received a last-minute invitation to a hospitality conference. This sparked an idea: he needed better insights into his company's financial relationship with hotels. Given the time constraint, Ken asked his IT director and accountant to stay late and prepare an analysis of hotel billings and bookings for the first half of the year. Recognizing the opportunity, Ken shared his vision for AI Agents with his colleagues, mainly because they would spend several days preparing this ad-hoc report.
 
 ## Technicalities
 
