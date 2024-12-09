@@ -80,6 +80,12 @@ The hospitality business showed strong performance in the first half of 2024, wi
 
 The hospitality business demonstrated a robust performance in the first half of 2024, with consistent bookings and billings. However, the June decline and the gap between bookings and billings present opportunities for improvement. Addressing these areas could lead to even stronger performance in the second half of the year.
 
+## Series
+
+This article is the first of the articles in the Agentic AI series. Others are:  
+\- [What C-Level Leaders Need to Know About AI Agents](https://blog.javatask.dev/what-c-level-leaders-need-to-know-about-ai-agents)  
+\- [How to Define AI Agents with Cloudformation and SAM: A Builder's Guide](https://blog.javatask.dev/how-to-define-ai-agents-with-cloudformation-and-sam-a-builders-guide)
+
 ## Technicalities
 
 > Yes, in the article that has C-level in the title will be code and AWS Console, this is a reality that we live in ;)
