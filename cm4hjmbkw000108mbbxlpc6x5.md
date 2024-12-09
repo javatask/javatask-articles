@@ -14,9 +14,9 @@ tags: aws, data-science, learning, serverless, generative-ai
 
 In my previous articles, we explored how AI Agents can transform business operations [from a bakery CEO's perspective](https://blog.javatask.dev/what-c-level-leaders-need-to-know-about-ai-agents) and [showcased data workflow](https://blog.javatask.dev/developing-an-ai-intern-for-c-level-executives-with-aws-bedrock). Let's dive deep into the technical implementation using AWS Bedrock AI Agents defined via CloudFormation and SAM. This guide will focus on the key components of the AI Agent configuration and deployment process, including SAM AWS Lambda to grab data, AI Agent tooling, and AI Agent itself.
 
-This article aims to give you a working template for building multiple custom AI Agents and showcase how to call them programmatically from your custom user interface.
+This article will give you a working template for building multiple custom AI Agents and showcase how to call them programmatically from your custom user interface.
 
-> **Note 1**. If you don’t feel confortable with code I still recommend you to check AI Agent definition to get general understanding of moving parts. It is human readble and I hope logical: [https://github.com/javatask/ai-agent-ceo-fin-advisor/blob/main/bedrock-agent-stack.yaml](https://github.com/javatask/ai-agent-ceo-fin-advisor/blob/main/bedrock-agent-stack.yaml)
+> **Note 1**. If you don’t feel comfortable with the code, I still recommend you check the AI Agent definition to understand the moving parts. It is human readable and I hope, logical: [https://github.com/javatask/ai-agent-ceo-fin-advisor/blob/main/bedrock-agent-stack.yaml](https://github.com/javatask/ai-agent-ceo-fin-advisor/blob/main/bedrock-agent-stack.yaml)
 > 
 > Scroll down to skip permission policy section.
 > 
