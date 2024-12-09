@@ -26,6 +26,12 @@ The CEO talked to his personnel and saw support for his ideas to innovate, but a
 
 During dinner at home, the father (CEO) and daughter start a conversation to decode all these terms and how they can help the business.
 
+## Series
+
+This article is the first of the articles in the Agentic AI series. Others are:  
+\- [Developing an AI Intern for C-Level Executives with AWS Bedrock](https://blog.javatask.dev/developing-an-ai-intern-for-c-level-executives-with-aws-bedrock)  
+\- [How to Define AI Agents with Cloudformation and SAM: A Builder's Guide](https://blog.javatask.dev/how-to-define-ai-agents-with-cloudformation-and-sam-a-builders-guide)
+
 ## Disclaimer
 
 In this article, I'll use human terms like interns, thinking, reasoning, etc. Current generative AI technology is not alive; it cannot think and reason. I'm using these terms here to simplify the mental model that can be shared within a company.
