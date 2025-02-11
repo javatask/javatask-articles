@@ -5,7 +5,7 @@ seoDescription: "Explore the transformative role of AI workforces in business by
 datePublished: Thu Dec 19 2024 21:18:52 GMT+0000 (Coordinated Universal Time)
 cuid: cm4vtqf4r000d09kzghvs8x7s
 slug: the-dawn-of-ai-workforce-a-2025-perspective
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734473023040/11f2cdec-0aea-49d8-b3ce-8d861e2777ed.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739279344818/25dc689b-29f8-4a0c-ad32-c8a4e74c3954.jpeg
 tags: aws, technology, leadership, innovation, generative-ai, agentic-ai
 
 ---
